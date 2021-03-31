@@ -1,11 +1,21 @@
 @media screen and (max-width:768px){
-  .main {
-    width: 100%;
-  }
   
+
   .main-content {
     flex-direction: column;
     width: 90%;
+  }
+
+  .content {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+
+  }
+
+  .content:last-child {
+    margin-bottom: 0;
+    
   }
 
 
